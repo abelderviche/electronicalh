@@ -47,6 +47,9 @@ return array(
 
 			'rules'=>array(
 				''=>'site/index',
+				'ofertas'=>'Productsoffers',
+				'ofertas/ver/<id>'=>'Productsoffers/view/id/<id>',
+				'ofertas/editar/<id>'=>'Productsoffers/update/id/<id>',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',

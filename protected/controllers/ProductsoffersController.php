@@ -6,7 +6,7 @@ class ProductsoffersController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column2';
+	public $layout='admin_lte';
 
 	/**
 	 * @return array action filters
@@ -26,24 +26,48 @@ class ProductsoffersController extends Controller
 	 */
 	public function accessRules()
 	{
-		return array(
+		/*return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('admin','view'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('admin','create','update'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
+				'users'=>array('*'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
 		);
+		return array(			
+			array('allow',
+				'actions'=>array('i'admin','create','update')
+			),
+			array('deny',
+				'users'=>array('*'),
+			),			
+		);
+		*/
+		$internal=array('admin','index','view','delete','update');
+		return array(
+			array('deny', //no entra a ninguna accion ningun usuario que no este logueado
+                'users'=>array('?'),
+            ),
+            array('allow', // acceden todos los usuarios autenticados a todas las acciones
+				'actions'=>$internal,
+				'users'=>array('@'),
+            ),
+			 array('deny',
+                'users'=>array('*'),
+            ),
+        );
 	}
+
+
 
 	/**
 	 * Displays a particular model.
@@ -121,10 +145,18 @@ class ProductsoffersController extends Controller
 	 * Lists all models.
 	 */
 	public function actionIndex()
-	{
+	{/*
 		$dataProvider=new CActiveDataProvider('Productsoffers');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
+		));*/
+		$model=new Productsoffers('search');
+		$model->unsetAttributes();  // clear any default values
+		if(isset($_GET['Productsoffers']))
+			$model->attributes=$_GET['Productsoffers'];
+
+		$this->render('admin',array(
+			'model'=>$model,
 		));
 	}
 
