@@ -60,7 +60,7 @@
       <div class="container">
         <div class="navbar-header">
            <!--  Text based logo  -->
-          <a class="navbar-brand" href="index.html">Electronica<span>LH</span></a> 
+          <a class="navbar-brand" href="<?php echo Yii::app()->request->baseUrl; ?>">Electronica<span>LH</span></a> 
 
         </div>
       </div>          

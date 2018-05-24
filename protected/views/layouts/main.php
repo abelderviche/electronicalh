@@ -70,7 +70,7 @@
           <!-- LOGO -->       
 
            <!--  Text based logo  -->
-          <a class="navbar-brand" href="index.html">Electronica<span>LH</span></a> 
+          <a class="navbar-brand" href="<?php echo Yii::app()->request->baseUrl; ?>">Electronica<span>LH</span></a> 
 
 		      <!--  Image based logo  -->
           <!-- <a class="navbar-brand" href="index.html"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo.png" alt="Logo img"></a>  -->
@@ -79,7 +79,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
-            <li><a href="index.html">HOME</a></li>
+            <li><a href="<?php echo Yii::app()->request->baseUrl; ?>">HOME</a></li>
             <li><a href="#mu-about-us">Sobre Nosotros</a></li>                       
             <li><a href="#mu-restaurant-menu">Ofertas</a></li>                                             
             <li><a href="#mu-gallery">Productos</a></li> 
