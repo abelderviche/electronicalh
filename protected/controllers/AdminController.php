@@ -59,6 +59,12 @@ public function filters()
 		// display the login form
 		$this->render('//site/login',array('model'=>$model));
 	}
+
+	public function actionLogout()
+	{
+		Yii::app()->user->logout();
+		$this->redirect(Yii::app()->homeUrl);
+	}
 	// Uncomment the following methods and override them if needed
 	/*
 	public function filters()

@@ -8696,3 +8696,2295 @@ Stack trace:
 REQUEST_URI=/electronicalh/productsoffers/update/dist/img/user3-128x128.jpg
 HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
 ---
+2018/05/24 22:35:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:35:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:35:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:35:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:41:28 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:41:28 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:41:28 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:41:29 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:41:33 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ver/view". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('ver/view')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/ver/1
+---
+2018/05/24 22:42:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ofertas/dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('ofertas/dist/im...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/ofertas/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas/1
+---
+2018/05/24 22:42:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ofertas/dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('ofertas/dist/im...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/ofertas/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas/1
+---
+2018/05/24 22:42:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ofertas/dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('ofertas/dist/im...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/ofertas/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas/1
+---
+2018/05/24 22:42:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ofertas/dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('ofertas/dist/im...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/ofertas/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas/1
+---
+2018/05/24 22:42:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ofertas/editar/dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('ofertas/editar/...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/ofertas/editar/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas/editar/1
+---
+2018/05/24 22:42:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ofertas/editar/dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('ofertas/editar/...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/ofertas/editar/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas/editar/1
+---
+2018/05/24 22:42:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ofertas/editar/dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('ofertas/editar/...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/ofertas/editar/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas/editar/1
+---
+2018/05/24 22:42:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ofertas/editar/dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('ofertas/editar/...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/ofertas/editar/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas/editar/1
+---
+2018/05/24 22:42:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ofertas/editar/dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('ofertas/editar/...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/ofertas/editar/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas/editar/1
+---
+2018/05/24 22:42:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ofertas/editar/dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('ofertas/editar/...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/ofertas/editar/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas/editar/1
+---
+2018/05/24 22:42:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ofertas/editar/dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('ofertas/editar/...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/ofertas/editar/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas/editar/1
+---
+2018/05/24 22:42:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ofertas/editar/dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('ofertas/editar/...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/ofertas/editar/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas/editar/1
+---
+2018/05/24 22:42:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:42:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:42:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:42:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:42:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:42:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:42:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:42:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:42:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "index3.html". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('index3.html')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/index3.html
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:42:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:42:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:42:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:42:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/24 22:42:36 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:42:37 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:42:37 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:42:37 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:42:42 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:42:42 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:42:42 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:42:42 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:43:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/admin
+---
+2018/05/24 22:43:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/admin
+---
+2018/05/24 22:43:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/admin
+---
+2018/05/24 22:43:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/admin
+---
+2018/05/24 22:43:11 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:43:11 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:43:11 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/24 22:43:11 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "dist". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('dist')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('dist')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/productsoffers/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/1
+---
+2018/05/28 14:26:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:26:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:26:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:27:44 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\electronicalh\protected\views\layouts\admin_lte.php:150
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\framework2\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(159): CController->render('admin', Array)
+#3 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(49): ProductsoffersController->actionIndex()
+#4 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('Productsoffers')
+#14 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/electronicalh/ofertas
+HTTP_REFERER=http://localhost/electronicalh/ofertas/editar/1
+---
+2018/05/28 14:27:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:27:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:27:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:28:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:28:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:28:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:28:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:28:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:28:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:28:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:28:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:29:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:29:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:29:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:29:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:29:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:29:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:29:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:29:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:33:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:33:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:33:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:33:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:33:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:33:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:33:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:33:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:33:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:33:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:33:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:33:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:52:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "index3.html". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('index3.html')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/index3.html
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:53:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user1-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user1-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:53:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:53:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user3-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user3-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:53:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/user8-128x128.jpg". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/user8-...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:54:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 14:56:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/05/28 19:38:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/admin
+---
+2018/05/28 19:46:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/05/28 20:19:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 20:19:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 20:27:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 20:28:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 20:28:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 20:28:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 20:28:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 20:29:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 20:29:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 20:29:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 20:29:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 20:29:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/28 20:31:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dist/img/AdminLTELogo.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('dist/img/AdminL...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/dist/img/AdminLTELogo.png
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/29 14:08:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 14:12:07 [error] [exception.CException] CException: Property "CWebUser.identity" is not defined. in C:\xampp\htdocs\framework2\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\auth\CWebUser.php(146): CComponent->__get('identity')
+#1 C:\xampp\htdocs\electronicalh\protected\controllers\AdminController.php(30): CWebUser->__get('identity')
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/admin
+---
+2018/05/29 14:17:00 [error] [exception.CException] CException: Property "WebUser.identity" is not defined. in C:\xampp\htdocs\framework2\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\auth\CWebUser.php(146): CComponent->__get('identity')
+#1 C:\xampp\htdocs\electronicalh\protected\controllers\AdminController.php(30): CWebUser->__get('identity')
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/admin
+---
+2018/05/29 14:17:25 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\electronicalh\protected\components\WebUser.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\electronicalh\protected\controllers\AdminController.php(30): WebUser->__get()
+#1 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#2 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): AdminController->runAction()
+#4 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#7 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#8 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\framework2\web\CController.php(265): AdminController->runActionWithFilters()
+#10 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): AdminController->run()
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/admin
+in C:\xampp\htdocs\electronicalh\protected\components\WebUser.php (20)
+in C:\xampp\htdocs\electronicalh\protected\controllers\AdminController.php (30)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 14:18:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/05/29 14:18:48 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\electronicalh\protected\components\WebUser.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\electronicalh\protected\controllers\AdminController.php(30): WebUser->__get()
+#1 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#2 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): AdminController->runAction()
+#4 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#7 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#8 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\framework2\web\CController.php(265): AdminController->runActionWithFilters()
+#10 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): AdminController->run()
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/admin
+in C:\xampp\htdocs\electronicalh\protected\components\WebUser.php (20)
+in C:\xampp\htdocs\electronicalh\protected\controllers\AdminController.php (30)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 14:24:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 14:25:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 14:25:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/05/29 14:25:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/05/29 14:25:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/05/29 14:25:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 14:25:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 16:00:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 16:03:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 16:03:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 16:52:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 16:53:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 16:56:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 16:57:54 [error] [exception.ParseError] ParseError: syntax error, unexpected ''columns'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\admin.php:48
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#3 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(159): CController->render('admin', Array)
+#4 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(49): ProductsoffersController->actionIndex()
+#5 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('Productsoffers')
+#15 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/electronicalh/ofertas
+HTTP_REFERER=http://localhost/electronicalh/admin
+---
+2018/05/29 16:58:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 16:58:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:00:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:01:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:01:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:23:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:27:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:34:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:34:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:35:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:36:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:36:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:36:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:36:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:37:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:38:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:38:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:40:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:40:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:41:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:42:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:43:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:43:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:45:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:50:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:51:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:51:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:51:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 17:51:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 18:01:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 18:10:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 18:10:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 18:10:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 18:10:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:20:15 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:20:22 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:21:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:24:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:32:22 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:32:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:33:22 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:33:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:34:28 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:35:05 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:36:22 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:36:38 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:36:52 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:37:00 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:37:05 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:39:13 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:39:14 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:39:15 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:39:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:39:28 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:39:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:40:27 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:40:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:40:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:40:33 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:40:37 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:40:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:41:44 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:43:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:43:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:43:05 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:43:21 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:43:21 [error] [php] move_uploaded_file(): The second argument to copy() function cannot be a directory (C:\xampp\htdocs\framework2\web\CUploadedFile.php:201)
+Stack trace:
+#0 unknown(0): ProductsoffersController->actionUpdate()
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (129)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:43:48 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:43:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:43:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:44:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:48:47 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:48:47 [error] [php] move_uploaded_file(/images/): failed to open stream: No such file or directory (C:\xampp\htdocs\framework2\web\CUploadedFile.php:201)
+Stack trace:
+#0 unknown(0): ProductsoffersController->actionUpdate()
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (129)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:49:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:49:06 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:49:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:49:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:49:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 19:49:27 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 19:49:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:33:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:34:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:35:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:36:05 [error] [exception.CException] CException: Property "CActiveForm.cssClass" is not defined. in C:\xampp\htdocs\framework2\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(161): CComponent->__set('cssClass', 'dropzone')
+#1 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductsoffersController), 'CActiveForm', Array)
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(198): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(11): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(21): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#12 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(136): CController->render('update', Array)
+#13 [internal function]: ProductsoffersController->actionUpdate('1')
+#14 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#15 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#16 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#25 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#26 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/29 22:43:44 [error] [exception.CException] CException: Alias "ext.dropzone.EDropzone" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\xampp\htdocs\framework2\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(146): YiiBase::import('ext.dropzone.ED...', true)
+#1 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductsoffersController), 'ext.dropzone.ED...', Array)
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(181): CBaseController->createWidget('ext.dropzone.ED...', Array)
+#3 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(58): CBaseController->widget('ext.dropzone.ED...', Array)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(21): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#12 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(136): CController->render('update', Array)
+#13 [internal function]: ProductsoffersController->actionUpdate('1')
+#14 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#15 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#16 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#25 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#26 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/29 22:43:45 [error] [exception.CException] CException: Alias "ext.dropzone.EDropzone" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\xampp\htdocs\framework2\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(146): YiiBase::import('ext.dropzone.ED...', true)
+#1 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductsoffersController), 'ext.dropzone.ED...', Array)
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(181): CBaseController->createWidget('ext.dropzone.ED...', Array)
+#3 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(58): CBaseController->widget('ext.dropzone.ED...', Array)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(21): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#12 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(136): CController->render('update', Array)
+#13 [internal function]: ProductsoffersController->actionUpdate('1')
+#14 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#15 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#16 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#25 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#26 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/29 22:44:39 [error] [php] include(EDropzone.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework2\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework2\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(181): ProductsoffersController->createWidget()
+#5 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(58): ProductsoffersController->widget()
+#6 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework2\web\CBaseController.php(95): ProductsoffersController->renderInternal()
+#8 C:\xampp\htdocs\framework2\web\CController.php(872): ProductsoffersController->renderFile()
+#9 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(21): ProductsoffersController->renderPartial()
+#10 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\framework2\web\CBaseController.php(95): ProductsoffersController->renderInternal()
+#12 C:\xampp\htdocs\framework2\web\CController.php(872): ProductsoffersController->renderFile()
+#13 C:\xampp\htdocs\framework2\web\CController.php(785): ProductsoffersController->renderPartial()
+#14 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(136): ProductsoffersController->render()
+#15 unknown(0): ProductsoffersController->actionUpdate()
+#16 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#17 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#18 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#20 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#22 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#23 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#24 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#26 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#27 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#28 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php (58)
+in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php (21)
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (136)
+2018/05/29 22:44:52 [error] [php] include(edropzone.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework2\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework2\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(181): ProductsoffersController->createWidget()
+#5 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(58): ProductsoffersController->widget()
+#6 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework2\web\CBaseController.php(95): ProductsoffersController->renderInternal()
+#8 C:\xampp\htdocs\framework2\web\CController.php(872): ProductsoffersController->renderFile()
+#9 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(21): ProductsoffersController->renderPartial()
+#10 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\framework2\web\CBaseController.php(95): ProductsoffersController->renderInternal()
+#12 C:\xampp\htdocs\framework2\web\CController.php(872): ProductsoffersController->renderFile()
+#13 C:\xampp\htdocs\framework2\web\CController.php(785): ProductsoffersController->renderPartial()
+#14 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(136): ProductsoffersController->render()
+#15 unknown(0): ProductsoffersController->actionUpdate()
+#16 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#17 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#18 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#20 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#22 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#23 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#24 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#26 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#27 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#28 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php (58)
+in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php (21)
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (136)
+2018/05/29 22:45:40 [error] [exception.CException] CException: Alias "ext.dropzone.EDropzone" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\xampp\htdocs\framework2\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(146): YiiBase::import('ext.dropzone.ED...', true)
+#1 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductsoffersController), 'ext.dropzone.ED...', Array)
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(181): CBaseController->createWidget('ext.dropzone.ED...', Array)
+#3 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(58): CBaseController->widget('ext.dropzone.ED...', Array)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(21): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#12 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(136): CController->render('update', Array)
+#13 [internal function]: ProductsoffersController->actionUpdate('1')
+#14 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#15 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#16 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#25 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#26 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/29 22:46:16 [error] [exception.CException] CException: Property "EDropzone.onSuccess" is not defined. in C:\xampp\htdocs\framework2\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(161): CComponent->__set('onSuccess', 'someJsFunction(...')
+#1 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductsoffersController), 'EDropzone', Array)
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(181): CBaseController->createWidget('EDropzone', Array)
+#3 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(58): CBaseController->widget('EDropzone', Array)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(21): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#12 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(136): CController->render('update', Array)
+#13 [internal function]: ProductsoffersController->actionUpdate('1')
+#14 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#15 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#16 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#25 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#26 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/29 22:46:26 [error] [exception.CException] CException: The asset "C:\xampp\htdocs\electronicalh\protected\extensions/assets/versions/4.0.1/dist/min/" to be published does not exist. in C:\xampp\htdocs\framework2\web\CAssetManager.php:257
+Stack trace:
+#0 C:\xampp\htdocs\electronicalh\protected\extensions\EDropzone.php(135): CAssetManager->publish('C:\\xampp\\htdocs...', false, 1, true)
+#1 C:\xampp\htdocs\electronicalh\protected\extensions\EDropzone.php(98): EDropzone->registerAssets()
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(182): EDropzone->run()
+#3 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(58): CBaseController->widget('EDropzone', Array)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(21): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#12 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(136): CController->render('update', Array)
+#13 [internal function]: ProductsoffersController->actionUpdate('1')
+#14 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#15 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#16 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#25 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#26 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/29 22:48:21 [error] [exception.CException] CException: The asset "C:\xampp\htdocs\electronicalh\protected\extensions/assets/" to be published does not exist. in C:\xampp\htdocs\framework2\web\CAssetManager.php:257
+Stack trace:
+#0 C:\xampp\htdocs\electronicalh\protected\extensions\EDropzone.php(138): CAssetManager->publish('C:\\xampp\\htdocs...', false, 1, true)
+#1 C:\xampp\htdocs\electronicalh\protected\extensions\EDropzone.php(98): EDropzone->registerAssets()
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(182): EDropzone->run()
+#3 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(58): CBaseController->widget('EDropzone', Array)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(21): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#12 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(136): CController->render('update', Array)
+#13 [internal function]: ProductsoffersController->actionUpdate('1')
+#14 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#15 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#16 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#25 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#26 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/29 22:49:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:50:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:50:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:51:23 [error] [exception.CException] CException: Alias "ext.dropzone.EDropzone" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\xampp\htdocs\framework2\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(146): YiiBase::import('ext.dropzone.ED...', true)
+#1 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductsoffersController), 'ext.dropzone.ED...', Array)
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(181): CBaseController->createWidget('ext.dropzone.ED...', Array)
+#3 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(55): CBaseController->widget('ext.dropzone.ED...', Array)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(21): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#12 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(136): CController->render('update', Array)
+#13 [internal function]: ProductsoffersController->actionUpdate('1')
+#14 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#15 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#16 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#25 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#26 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/29 22:51:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:52:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:53:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:53:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:53:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:54:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:54:22 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 22:55:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:55:49 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 22:55:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:56:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:56:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 22:56:52 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 22:56:52 [error] [php] move_uploaded_file(/electronicalh/images): failed to open stream: No such file or directory (C:\xampp\htdocs\framework2\web\CUploadedFile.php:201)
+Stack trace:
+#0 unknown(0): ProductsoffersController->actionUpdate()
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (129)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 23:00:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/29 23:00:35 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/29 23:00:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---

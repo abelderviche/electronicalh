@@ -3,6 +3,7 @@
 /* @var $model Productsoffers */
 /* @var $form CActiveForm */
 ?>
+<link rel="stylesheet" href="<?=Yii::app()->request->baseUrl;?>/css/dropzone.css">
 
 <div class="form">
 
@@ -13,6 +14,7 @@
 	// There is a call to performAjaxValidation() commented in generated controller code.
 	// See class documentation of CActiveForm for details on this.
 	'enableAjaxValidation'=>false,
+	'htmlOptions' => array('enctype' => 'multipart/form-data'),
 )); ?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
@@ -41,6 +43,11 @@
 		<?php echo $form->labelEx($model,'price'); ?>
 		<?php echo $form->textField($model,'price'); ?>
 		<?php echo $form->error($model,'price'); ?>
+	</div>	
+	<div class="row">
+		<?php echo $form->labelEx($model, 'image'); ?>
+		<?php echo $form->fileField($model, 'image'); ?>
+		<?php echo $form->error($model, 'image'); ?>
 	</div>
 
 	<div class="row buttons">
@@ -50,3 +57,5 @@
 <?php $this->endWidget(); ?>
 
 </div><!-- form -->
+
+<?php  Yii::app()->clientScript->registerScriptFile(Yii::app()->request->baseUrl.'/js/dropzone.js',CClientScript::POS_END); ?>

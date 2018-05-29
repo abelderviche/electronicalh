@@ -9,12 +9,14 @@
  * @property string $name
  * @property string $description
  * @property double $price
+ * @property string $image
  *
  * The followings are the available model relations:
  * @property ProductsCategories $idCategory
  */
 class Productsoffers extends CActiveRecord
 {
+	public $image;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -35,9 +37,10 @@ class Productsoffers extends CActiveRecord
 			array('price', 'numerical'),
 			array('name', 'length', 'max'=>45),
 			array('description', 'length', 'max'=>255),
+			array('image', 'file', 'types'=>'jpg, gif, png', 'safe' => false),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, id_category, name, description, price', 'safe', 'on'=>'search'),
+			array('id, id_category, name, description, price, image', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -60,10 +63,11 @@ class Productsoffers extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'id_category' => 'Id Category',
-			'name' => 'Name',
-			'description' => 'Description',
-			'price' => 'Price',
+			'id_category' => 'Categoria',
+			'name' => 'Nombre',
+			'description' => 'Descripción',
+			'price' => 'Precio',
+			'image'=> 'Imagen'
 		);
 	}
 

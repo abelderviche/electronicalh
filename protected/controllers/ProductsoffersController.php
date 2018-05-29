@@ -94,8 +94,13 @@ class ProductsoffersController extends Controller
 		if(isset($_POST['Productsoffers']))
 		{
 			$model->attributes=$_POST['Productsoffers'];
+			$model->image=CUploadedFile::getInstance($model,'image');
 			if($model->save())
+			{
+				$model->image->saveAs(Yii::app()->request->baseUrl.'/images');
 				$this->redirect(array('view','id'=>$model->id));
+				// redirect to success page
+			}
 		}
 
 		$this->render('create',array(
@@ -118,8 +123,18 @@ class ProductsoffersController extends Controller
 		if(isset($_POST['Productsoffers']))
 		{
 			$model->attributes=$_POST['Productsoffers'];
+			$imageUploadFile = CUploadedFile::getInstance($model,'image');
 			if($model->save())
+			{
+				if($imageUploadFile !== null){ // only do if file is really uploaded
+					$imageFileName = mktime().$imageUploadFile->name;
+					$model->image = $imageFileName;
+				}else{
+					echo "lpm";die();
+				}
 				$this->redirect(array('view','id'=>$model->id));
+				// redirect to success page
+			}
 		}
 
 		$this->render('update',array(

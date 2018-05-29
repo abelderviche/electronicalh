@@ -16,6 +16,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'application.extensions.*',
 	),
 
 	'modules'=>array(
@@ -34,6 +35,7 @@ return array(
 	'components'=>array(
 
 		'user'=>array(
+			'class'=>'WebUser',
 			 'loginUrl'=>array('login'),
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
@@ -48,7 +50,7 @@ return array(
 			'rules'=>array(
 				''=>'site/index',
 				'ofertas'=>'Productsoffers',
-				'ofertas/ver/<id>'=>'Productsoffers/view/id/<id>',
+				'ofertas/<id>'=>'Productsoffers/view/id/<id>',
 				'ofertas/editar/<id>'=>'Productsoffers/update/id/<id>',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',

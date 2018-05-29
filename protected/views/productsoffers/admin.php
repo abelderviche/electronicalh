@@ -25,33 +25,49 @@ $('.search-form form').submit(function(){
 });
 ");
 ?>
+<section class="content-header">
+	<h1>Administrar Ofertas</h1>
+</section>
+<section class="content">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<!-- /.card-header -->
+					<div class="card-body">
+						<?php 
+						$this->widget('zii.widgets.grid.CGridView', array(
+							'id'=>'productsoffers-grid',
+							'dataProvider'=>$model->search(),
+							'filter'=>$model,
+							'itemsCssClass'=>'table table-hover',
+							'pager' => array(
+								'cssFile'=>false,
+								'header'=> '',
+								'firstPageLabel' => '<i class="fa fa-forward fa-flip-horizontal" data-toggle="tooltip" title="Primera página"></i>',
+								'prevPageLabel'  => '<i class="fa fa-caret-right fa-flip-horizontal" data-toggle="tooltip" title="Anterior"></i>',
+								'nextPageLabel'  => '<i class="fa fa-caret-right" data-toggle="tooltip" title="Siguiente"></i>',
+								'lastPageLabel'  => '<i class="fa fa-forward" data-toggle="tooltip" title="Última página"></i>', 
+							),
+						'summaryText' => '', 
 
-<h1>Manage Productsoffers</h1>
-
-<p>
-You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
-</p>
-
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
-<div class="search-form" style="display:none">
-<?php $this->renderPartial('_search',array(
-	'model'=>$model,
-)); ?>
-</div><!-- search-form -->
-
-<?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'productsoffers-grid',
-	'dataProvider'=>$model->search(),
-	'filter'=>$model,
-	'columns'=>array(
-		'id',
-		'id_category',
-		'name',
-		'description',
-		'price',
-		array(
-			'class'=>'CButtonColumn',
-		),
-	),
-)); ?>
+						'columns'=>array(
+							'name',
+							array(
+							'name' => 'id_category',
+							'value' => '$data->idCategory->name',
+							),
+							'description',
+							'price',
+							array(
+							'class'=>'CButtonColumn',
+							),
+						),
+						)); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	
