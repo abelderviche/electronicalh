@@ -26,153 +26,82 @@
  *
  */
 class EDropzone extends CWidget {
-	CONST VER_3_10_2 = '3.10.2';
-	CONST VER_4_0_1 = '4.0.1';
+    /**
+     * @var string The name of the file field
+     */
+    public $name = false;
+    /**
+     * @var CModel The model for the file field
+     */
+    public $model = false;
+    /**
+     * @var string The attribute of the model
+     */
+    public $attribute = false;
+    /**
+     * @var array An array of options that are supported by Dropzone
+     */
+    public $options = array();
+    /**
+     * @var string The URL that handles the file upload
+     */
+    public $url = false;
+    /**
+     * @var array An array of supported MIME types
+     */
+    public $mimeTypes = array();
+    /**
+     * @var string The Javascript to be called in case of a succesful upload
+     */
+    public $onSuccess = false;
 
-	/**
-	 * @var string The name of the file field
-	 */
-	public $name = false;
-	/**
-	 * @var CModel The model for the file field
-	 */
-	public $model = false;
-	/**
-	 * @var string The attribute of the model
-	 */
-	public $attribute = false;
-	/**
-	 * @var array An array of options that are supported by Dropzone
-	 */
-	public $options = array();
-	/**
-	 * @var string The URL that handles the file upload
-	 */
-	public $url = false;
-	/**
-	 * @var array An array of supported MIME types. Eg.: image/*,application/pdf,.psd
-	 */
-	public $mimeTypes = array();
-	/**
-	 * @var array The Javascript to be called on any event
-	 */
-	public $events = array();
 
-	/**
-	 * @var array The HTML options using in the tag div
-	 */
-	public $htmlOptions = array();
+    public $onAddedfile = false;
 
-	/**
-	 * @var string The path to custom css file
-	 */
-	public $customStyle = false;
+    /**
+     * Create a div and the appropriate Javascript to make the div into the file upload area
+     */
+    public function run() {
+        if (!$this->url || $this->url == '')
+            $this->url = Yii::app()->createUrl('site/upload');
 
-	/** @var string  */
-	public $assetsVersion = self::VER_4_0_1;
+        echo CHtml::openTag('div', array('class' => 'dropzone', 'id' => 'fileup'));
+        echo CHtml::closeTag('div');
 
-	public $enableTranslate = false;
+        if (!$this->name && ($this->model && $this->attribute) && $this->model instanceof CModel)
+            $this->name = CHtml::activeName($this->model, $this->attribute);
 
-	public function init() {
-		if (!$this->url)
-			$this->url = Yii::app()->createUrl('site/upload');
+        $this->mimeTypes = CJavaScript::encode($this->mimeTypes);
 
-		if (!$this->name && $this->model instanceof CModel && $this->attribute)
-			$this->name = CHtml::activeName($this->model, $this->attribute);
+        $options = CMap::mergeArray(array(
+                'url' => $this->url,
+                'parallelUploads' => 1,
+                'paramName' => $this->name,
+                'maxFiles' => 1,
+                'accept' => "js:function(file, done){if(jQuery.inArray(file.type,{$this->mimeTypes}) == -1 ){done('File type not allowed.');}else{done();}}",
+               // 'init' => "js:function(){this.on('success',function(file){{$this->onSuccess}});}"
+                'init' => "js:function(){this.on('success',$this->onSuccess);this.on('addedfile', function() {
+                  if (this.files[1]!=null){
+                    this.removeFile(this.files[0]);
+                  }
+                });}",
+                ), $this->options);
 
-		if ( empty($this->htmlOptions['id']) ) {
-			$this->htmlOptions['id'] = $this->id;
-		} else {
-			$this->id = $this->htmlOptions['id'];
-		}
+        $options = CJavaScript::encode($options);
 
-		if ( $this->enableTranslate ) {
-			$this->initTranslate();
-		}
-	}
+        $script = "Dropzone.options.fileup = {$options};";
 
-	/**
-	 * Create a div and the appropriate Javascript to make the div into the file upload area
-	 */
-	public function run() {
-		$this->registerAssets();
-		$this->jsOptions();
-		$this->renderHtml();
-	}
+        $this->registerAssets();
+        Yii::app()->getClientScript()->registerScript(__CLASS__ . '#' . $this->getId(), $script, CClientScript::POS_END);
+    }
 
-	/**
-	 * I prefer to render HTML from view file. But if you override Widget you must to override all view's.
-	 * review: you need to add style manually into your project css:
-	 * .dz-browser-not-supported .fallback {display:none !important}
-	 */
-	protected function renderHtml() {
-		$htmlOptions = CMap::mergeArray(array('class' => 'dropzone', 'enctype'=> 'multipart/form-data'), $this->htmlOptions);
-		echo CHtml::beginForm($this->url, 'post', $htmlOptions);
-		echo '
-        <div class="fallback" style="display:none;">
-            <input name="' . $this->name . '" type="file" multiple />
-        </div>
-        ';
-		echo CHtml::endForm();
-	}
+    private function registerAssets() {
+        $basePath = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'assets' . DIRECTORY_SEPARATOR;
+        $baseUrl = Yii::app()->getAssetManager()->publish($basePath, false, 1, YII_DEBUG);
+        Yii::app()->getClientScript()->registerCoreScript('jquery');
+        Yii::app()->getClientScript()->registerScriptFile("{$baseUrl}/js/dropzone.js", CClientScript::POS_END);
+        Yii::app()->getClientScript()->registerCssFile("{$baseUrl}/css/dropzone.css");
+    }
 
-	protected function registerAssets() {
-		/*if ( $this->assetsVersion == self::VER_3_10_2 ) {
-			$basePath = dirname(__FILE__) . '/assets/';
-			$js = '/js/dropzone.js';
-			$css = '/css/dropzone.css';
-		} else {
-			$min = '';
-			$basePath = dirname(__FILE__) . "/assets/versions/{$this->assetsVersion}/dist/";
-			if ( YII_DEBUG ) {
-				$basePath .= 'min/';
-				$min = '.min';
-			}
-			$js = "/dropzone$min.js";
-			$css = "/dropzone$min.css";
-		}
-	*/
-		$basePath = dirname(__FILE__) . '/../../';
-		$js = '/js/dropzone.js';
-		$css = '/css/dropzone.css';
-		$baseUrl = Yii::app()->getAssetManager()->publish($basePath, false, 1, YII_DEBUG);
-
-		Yii::app()->getClientScript()
-			->registerScriptFile($baseUrl . $js, CClientScript::POS_BEGIN)
-			->registerCssFile($baseUrl . $css);
-
-		if($this->customStyle)
-			Yii::app()->getClientScript()->registerCssFile($this->customStyle);
-	}
-
-	protected function jsOptions() {
-		$onEvents = '';
-		foreach($this->events as $event => $func){
-			$onEvents .= "this.on('$event', function(param, param2, param3){ $func });";
-		}
-
-		$options = CMap::mergeArray(array(
-			'url' => $this->url,
-			'parallelUploads' => 5,
-			'paramName' => $this->name,
-			//'accept' => "js:function(file, done){if({$this->mimeTypes}.indexOf(file.type) == -1 ){done('File type not allowed.');}else{done();}}", //review There are many fixes in v 4.0.1. And 'acceptedFiles' + translation now work properly. So this code is deprecated i think
-			'acceptedFiles' => join(',', $this->mimeTypes),
-			'init' => "js:function(){ $onEvents }"
-		), $this->options);
-
-		$options = CJavaScript::encode($options);
-		$script = "Dropzone.options.{$this->id} = $options";
-		Yii::app()->getClientScript()->registerScript(__CLASS__ . '#' . $this->getId(), $script, CClientScript::POS_BEGIN);
-	}
-
-	protected function initTranslate() {
-		$dict = array(
-			'dictDefaultMessage'=>Yii::t('EDropzone.dropzone','<b>Drop files</b> here to upload <span>(or click)</span>'),
-			'dictFallbackMessage'=>Yii::t('EDropzone.dropzone',"Your browser does not support drag'n'drop file uploads."),
-			'dictFallbackText'=>Yii::t('EDropzone.dropzone','Please use the fallback form below to upload your files like in the olden days.'),
-			'dictInvalidFileType'=>Yii::t('EDropzone.dropzone',"Wrong type. Allowed types are: \n{types}", array('{types}'=>join('; ', $this->mimeTypes))),
-			'dictFileTooBig'=>Yii::t('EDropzone.dropzone','Size is too big. Allowed size is {{maxFilesize}}. Your file is {{filesize}}'),
-		);
-		$this->options = CMap::mergeArray($this->options, $dict);
-	}
 }
+?>

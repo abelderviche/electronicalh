@@ -52,7 +52,7 @@ class ProductsoffersController extends Controller
 			),			
 		);
 		*/
-		$internal=array('admin','index','view','delete','update');
+		$internal=array('admin','index','view','delete','update','insert');
 		return array(
 			array('deny', //no entra a ninguna accion ningun usuario que no este logueado
                 'users'=>array('?'),
@@ -113,6 +113,45 @@ class ProductsoffersController extends Controller
 	 * If update is successful, the browser will be redirected to the 'view' page.
 	 * @param integer $id the ID of the model to be updated
 	 */
+
+	public function vaciarcacheimages($carpeta){
+		foreach(glob($carpeta . "/*") as $archivos_carpeta){
+			if (is_dir($archivos_carpeta)){
+				self::vaciarcacheimages($archivos_carpeta);
+			}else{
+				unlink($archivos_carpeta);
+			}
+		}
+		if(file_exists($carpeta)){
+			//rmdir($carpeta);
+		}
+	}
+
+	public function actionInsert(){
+        if (!empty($_FILES)) {
+          // Yii::app()->session['id_upload'] == '';  
+          $random = rand(0,99999);
+     		
+          $tempFile = $_FILES['Productsoffers']['tmp_name']['image']; 
+          $targetPath = Yii::getPathOfAlias('webroot').'/images/productsoffers/'; 
+
+          $file_name = $random.'_'.str_replace(' ' ,'_' ,$_FILES['Productsoffers']['name']['image']); 
+          $targetFile =  $targetPath.$file_name;
+       
+          echo json_encode(array('tempFile'=>$tempFile,'file_name'=>$file_name));
+
+          /*if(move_uploaded_file($tempFile,$targetFile)){
+            $to_return =  $file_name;
+
+            Yii::app()->session['id_upload'] = $to_return;
+            echo $to_return;
+          } 
+          */
+           
+      }
+
+    }
+
 	public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
@@ -120,19 +159,44 @@ class ProductsoffersController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
+		
 		if(isset($_POST['Productsoffers']))
-		{
+		{	
 			$model->attributes=$_POST['Productsoffers'];
-			$imageUploadFile = CUploadedFile::getInstance($model,'image');
+
+
+		//	$model->image = CUploadedFile::getInstance($model,'image');
+			$model->image = $_POST['image'];
 			if($model->save())
 			{
-				if($imageUploadFile !== null){ // only do if file is really uploaded
-					$imageFileName = mktime().$imageUploadFile->name;
-					$model->image = $imageFileName;
-				}else{
-					echo "lpm";die();
+				//self::vaciarcacheimages('images');
+				if(!is_dir('images/productsoffers')){
+					mkdir('images/productsoffers');
 				}
-				$this->redirect(array('view','id'=>$model->id));
+				if(!is_dir('images/productsoffers/'.$model->id)){
+					mkdir('images/productsoffers/'.$model->id);
+				}
+
+
+      		  	$tempFile = $_POST['image_url']; 
+          		$targetPath = Yii::getPathOfAlias('webroot').'/images/productsoffers/'.$model->id.'/'; 
+
+	        	$file_name = $_POST['image']; 
+	        	$targetFile =  $targetPath.$file_name;
+       
+          		if(move_uploaded_file($tempFile,$targetFile)){
+					$this->redirect(array('view','id'=>$model->id));
+          			
+          		}else{
+          			echo "pinto el eerror";
+          			die();
+          		}
+
+				/*if (!$model->image->saveAs(Yii::app()->basePath . '/../images/productsoffers/'.$model->id.'/'.$model->image)){
+                                throw new Exception();
+				}*/
+
+				
 				// redirect to success page
 			}
 		}

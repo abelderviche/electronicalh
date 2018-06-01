@@ -35,9 +35,9 @@ class Productsoffers extends CActiveRecord
 		return array(
 			array('id_category', 'numerical', 'integerOnly'=>true),
 			array('price', 'numerical'),
-			array('name', 'length', 'max'=>45),
+			array('name,image', 'length', 'max'=>45),
 			array('description', 'length', 'max'=>255),
-			array('image', 'file', 'types'=>'jpg, gif, png', 'safe' => false),
+			//array('image', 'file', 'types'=>'jpg, gif, png'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, id_category, name, description, price, image', 'safe', 'on'=>'search'),
@@ -94,6 +94,7 @@ class Productsoffers extends CActiveRecord
 		$criteria->compare('name',$this->name,true);
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('price',$this->price);
+		$criteria->compare('image',$this->image);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

@@ -10988,3 +10988,2307 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/electronicalh/css/adminlte.css.map
 ---
+2018/05/30 21:50:06 [warning] [application] Failed to set unsafe attribute "image" of "Productsoffers".
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (125)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/30 21:55:31 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:131
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 21:55:53 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:131
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 21:57:23 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:131
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 21:58:56 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:132
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:01:11 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:137
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:01:53 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:137
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:06:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:06:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:07:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:07:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:08:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:09:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:09:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:10:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:10:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:10:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:10:20 [error] [php] Undefined variable: _FILE (C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:124)
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#3 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#6 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#9 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#10 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (124)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/30 22:10:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:15:18 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:143
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:15:52 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:143
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:16:17 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:143
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:19:20 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:143
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:19:27 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:143
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:19:32 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:143
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:19:37 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:143
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:23:05 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:143
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:23:32 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:143
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:23:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:23:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:24:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:24:19 [error] [php] Undefined variable: imageUploadFile (C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:133)
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#3 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#6 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#9 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#10 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (133)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/30 22:24:32 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:143
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:24:40 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:143
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:24:43 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:143
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:24:58 [error] [exception.Error] Error: Call to a member function saveAs() on string in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:143
+Stack trace:
+#0 [internal function]: ProductsoffersController->actionUpdate('1')
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/30 22:25:20 [error] [php] move_uploaded_file(): The second argument to copy() function cannot be a directory (C:\xampp\htdocs\framework2\web\CUploadedFile.php:201)
+Stack trace:
+#0 unknown(0): ProductsoffersController->actionUpdate()
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (144)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/30 22:25:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:25:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:25:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:26:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:26:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:26:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/30 22:26:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 14:44:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 15:05:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 15:06:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 15:06:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 15:06:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 15:06:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 15:07:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 15:07:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 15:07:09 [error] [php] move_uploaded_file(C:\xampp\htdocs\electronicalh\protected/../images/test/abel.png): failed to open stream: No such file or directory (C:\xampp\htdocs\framework2\web\CUploadedFile.php:201)
+Stack trace:
+#0 unknown(0): ProductsoffersController->actionUpdate()
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (131)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/31 15:54:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 15:56:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 15:57:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 15:57:08 [error] [php] move_uploaded_file(): The second argument to copy() function cannot be a directory (C:\xampp\htdocs\framework2\web\CUploadedFile.php:201)
+Stack trace:
+#0 unknown(0): ProductsoffersController->actionUpdate()
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (155)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/31 15:58:48 [error] [php] move_uploaded_file(): The second argument to copy() function cannot be a directory (C:\xampp\htdocs\framework2\web\CUploadedFile.php:201)
+Stack trace:
+#0 unknown(0): ProductsoffersController->actionUpdate()
+#1 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#5 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#8 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#12 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (152)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/31 15:59:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:00:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:00:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:00:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:10:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:11:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:11:40 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function CActiveForm::dropDownList(), 2 passed in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php on line 27 and at least 3 expected in C:\xampp\htdocs\framework2\web\widgets\CActiveForm.php:912
+Stack trace:
+#0 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(27): CActiveForm->dropDownList(Object(Productsoffers), 'idCategory')
+#1 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(21): CController->renderPartial('_form', Array)
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#9 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(162): CController->render('update', Array)
+#10 [internal function]: ProductsoffersController->actionUpdate('1')
+#11 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#12 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#13 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#22 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#23 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/31 16:11:56 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\framework2\web\helpers\CHtml.php:2543)
+Stack trace:
+#0 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(27): CActiveForm->dropDownList()
+#1 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(95): ProductsoffersController->renderInternal()
+#3 C:\xampp\htdocs\framework2\web\CController.php(872): ProductsoffersController->renderFile()
+#4 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(21): ProductsoffersController->renderPartial()
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require()
+#6 C:\xampp\htdocs\framework2\web\CBaseController.php(95): ProductsoffersController->renderInternal()
+#7 C:\xampp\htdocs\framework2\web\CController.php(872): ProductsoffersController->renderFile()
+#8 C:\xampp\htdocs\framework2\web\CController.php(785): ProductsoffersController->renderPartial()
+#9 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(162): ProductsoffersController->render()
+#10 unknown(0): ProductsoffersController->actionUpdate()
+#11 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#12 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#13 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#15 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#17 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#18 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#19 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#21 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#22 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php (27)
+in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php (21)
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (162)
+2018/05/31 16:13:47 [error] [exception.ParseError] ParseError: syntax error, unexpected '*', expecting end of file in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php:29
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(21): CController->renderPartial('_form', Array)
+#3 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#7 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(162): CController->render('update', Array)
+#8 [internal function]: ProductsoffersController->actionUpdate('1')
+#9 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#10 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#11 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#20 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#21 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/31 16:13:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:14:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:14:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:20:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:22:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:24:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:27:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:27:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:27:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:27:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:27:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:29:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:29:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:31:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:33:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:36:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:37:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:39:53 [error] [php] Undefined variable: form (C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(872): ProductsoffersController->renderFile()
+#1 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(36): ProductsoffersController->renderPartial()
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\framework2\web\CBaseController.php(95): ProductsoffersController->renderInternal()
+#4 C:\xampp\htdocs\framework2\web\CController.php(872): ProductsoffersController->renderFile()
+#5 C:\xampp\htdocs\framework2\web\CController.php(785): ProductsoffersController->renderPartial()
+#6 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(162): ProductsoffersController->render()
+#7 unknown(0): ProductsoffersController->actionUpdate()
+#8 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#9 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#12 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#14 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#15 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#16 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#18 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#19 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php (11)
+in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php (36)
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (162)
+2018/05/31 16:40:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:40:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:44:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:44:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:46:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:46:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 16:46:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 17:04:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 17:06:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 17:07:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 17:07:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 17:32:04 [error] [exception.CException] CException: Alias "ext.dropzone.EDropzone" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\xampp\htdocs\framework2\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(146): YiiBase::import('ext.dropzone.ED...', true)
+#1 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductsoffersController), 'ext.dropzone.ED...', Array)
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(181): CBaseController->createWidget('ext.dropzone.ED...', Array)
+#3 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(52): CBaseController->widget('ext.dropzone.ED...', Array)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(36): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#12 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(162): CController->render('update', Array)
+#13 [internal function]: ProductsoffersController->actionUpdate('1')
+#14 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#15 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#16 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#25 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#26 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/31 17:32:17 [error] [exception.CException] CException: Property "EDropzone.onSuccess" is not defined. in C:\xampp\htdocs\framework2\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(161): CComponent->__set('onSuccess', 'someJsFunction(...')
+#1 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductsoffersController), 'EDropzone', Array)
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(181): CBaseController->createWidget('EDropzone', Array)
+#3 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(52): CBaseController->widget('EDropzone', Array)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(36): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#12 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(162): CController->render('update', Array)
+#13 [internal function]: ProductsoffersController->actionUpdate('1')
+#14 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#15 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#16 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#25 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#26 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/ofertas
+---
+2018/05/31 17:32:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:27:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:27:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:31:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:31:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "controller/action". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('controller/acti...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/controller/action
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 20:32:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:32:05 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "upload". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('site/upload')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/site/upload
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 20:32:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:33:26 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "upload". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('site/upload')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/site/upload
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 20:35:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:35:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:35:43 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "upload". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('site/upload')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/site/upload
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 20:36:13 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "upload". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('site/upload')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/site/upload
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 20:39:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:39:47 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "upload". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('site/upload')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/site/upload
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 20:39:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:48:22 [error] [exception.CException] CException: Property "EDropzone.paramName" is not defined. in C:\xampp\htdocs\framework2\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(161): CComponent->__set('paramName', 'image')
+#1 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductsoffersController), 'EDropzone', Array)
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(181): CBaseController->createWidget('EDropzone', Array)
+#3 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(60): CBaseController->widget('EDropzone', Array)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(36): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#12 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(162): CController->render('update', Array)
+#13 [internal function]: ProductsoffersController->actionUpdate('1')
+#14 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#15 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#16 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#25 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#26 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 20:49:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:49:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:49:11 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "upload". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('site/upload')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/site/upload
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 20:50:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:52:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:52:42 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "upload". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('site/upload')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/site/upload
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 20:53:15 [error] [php] htmlspecialchars() expects parameter 1 to be string, object given (C:\xampp\htdocs\framework2\web\helpers\CHtml.php:108)
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\helpers\CHtml.php(163): renderAttributes()
+#1 C:\xampp\htdocs\framework2\web\helpers\CHtml.php(1456): tag()
+#2 C:\xampp\htdocs\framework2\web\helpers\CHtml.php(827): inputField()
+#3 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(56): hiddenField()
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(95): ProductsoffersController->renderInternal()
+#6 C:\xampp\htdocs\framework2\web\CController.php(872): ProductsoffersController->renderFile()
+#7 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(36): ProductsoffersController->renderPartial()
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require()
+#9 C:\xampp\htdocs\framework2\web\CBaseController.php(95): ProductsoffersController->renderInternal()
+#10 C:\xampp\htdocs\framework2\web\CController.php(872): ProductsoffersController->renderFile()
+#11 C:\xampp\htdocs\framework2\web\CController.php(785): ProductsoffersController->renderPartial()
+#12 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(162): ProductsoffersController->render()
+#13 unknown(0): ProductsoffersController->actionUpdate()
+#14 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#15 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#16 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#18 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#21 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#22 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#24 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#25 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php (56)
+in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php (36)
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (162)
+2018/05/31 20:53:24 [error] [php] Object of class Productsoffers could not be converted to string (C:\xampp\htdocs\framework2\web\helpers\CHtml.php:2371)
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\helpers\CHtml.php(827): inputField()
+#1 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(56): hiddenField()
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\framework2\web\CBaseController.php(95): ProductsoffersController->renderInternal()
+#4 C:\xampp\htdocs\framework2\web\CController.php(872): ProductsoffersController->renderFile()
+#5 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(36): ProductsoffersController->renderPartial()
+#6 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework2\web\CBaseController.php(95): ProductsoffersController->renderInternal()
+#8 C:\xampp\htdocs\framework2\web\CController.php(872): ProductsoffersController->renderFile()
+#9 C:\xampp\htdocs\framework2\web\CController.php(785): ProductsoffersController->renderPartial()
+#10 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(162): ProductsoffersController->render()
+#11 unknown(0): ProductsoffersController->actionUpdate()
+#12 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#13 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#14 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#16 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#18 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#19 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#20 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#22 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#23 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#24 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php (56)
+in C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php (36)
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (162)
+2018/05/31 20:53:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:53:39 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "upload". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('site/upload')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/site/upload
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 20:57:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:57:42 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "upload". in C:\xampp\htdocs\framework2\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('site/upload')
+#3 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/electronicalh/site/upload
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 20:58:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 20:58:05 [error] [php] rand() expects parameter 2 to be integer, float given (C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:133)
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#2 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#5 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#6 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#8 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#9 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/insert
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (133)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/31 20:59:10 [error] [php] rand() expects parameter 2 to be integer, float given (C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:133)
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#2 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#5 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#6 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#8 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#9 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/insert
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (133)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/31 20:59:17 [error] [php] rand() expects exactly 2 parameters, 1 given (C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:133)
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#2 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#5 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#6 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#8 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#9 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/insert
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (133)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/31 20:59:29 [error] [php] rand() expects parameter 2 to be integer, float given (C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:133)
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#2 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#5 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#6 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#8 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#9 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/insert
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (133)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/31 21:04:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:04:55 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:151)
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#1 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#4 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#7 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#8 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/insert
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (151)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/31 21:05:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:06:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:06:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:07:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:08:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:08:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:10:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:10:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:11:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:11:33 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:11:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:14:11 [error] [exception.CException] CException: Property "ProductsoffersController.onSuccess" is not defined. in C:\xampp\htdocs\framework2\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(69): CComponent->__get('onSuccess')
+#1 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(36): CController->renderPartial('_form', Array)
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#9 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(198): CController->render('update', Array)
+#10 [internal function]: ProductsoffersController->actionUpdate('1')
+#11 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#12 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#13 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#22 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#23 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+---
+2018/05/31 21:15:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:17:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:17:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:19:26 [error] [exception.CException] CException: Property "EDropzone.success" is not defined. in C:\xampp\htdocs\framework2\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(161): CComponent->__set('success', 'succcesupload')
+#1 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductsoffersController), 'EDropzone', Array)
+#2 C:\xampp\htdocs\framework2\web\CBaseController.php(181): CBaseController->createWidget('EDropzone', Array)
+#3 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(63): CBaseController->widget('EDropzone', Array)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(36): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#12 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(198): CController->render('update', Array)
+#13 [internal function]: ProductsoffersController->actionUpdate('1')
+#14 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#15 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#16 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#25 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#26 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+---
+2018/05/31 21:21:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:23:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:24:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:29:25 [error] [exception.ParseError] ParseError: syntax error, unexpected ''accept'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\electronicalh\protected\extensions\EDropzone.php:78
+Stack trace:
+#0 [internal function]: YiiBase::autoload('EDropzone')
+#1 [internal function]: spl_autoload_call('EDropzone')
+#2 C:\xampp\htdocs\framework2\YiiBase.php(303): class_exists('EDropzone', true)
+#3 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(146): YiiBase::import('EDropzone', true)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductsoffersController), 'EDropzone', Array)
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(181): CBaseController->createWidget('EDropzone', Array)
+#6 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(63): CBaseController->widget('EDropzone', Array)
+#7 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(36): CController->renderPartial('_form', Array)
+#11 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#15 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(198): CController->render('update', Array)
+#16 [internal function]: ProductsoffersController->actionUpdate('1')
+#17 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#18 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#19 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#25 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#26 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#28 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#29 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#30 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+---
+2018/05/31 21:29:51 [error] [exception.ParseError] ParseError: syntax error, unexpected ''accept'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\electronicalh\protected\extensions\EDropzone.php:78
+Stack trace:
+#0 [internal function]: YiiBase::autoload('EDropzone')
+#1 [internal function]: spl_autoload_call('EDropzone')
+#2 C:\xampp\htdocs\framework2\YiiBase.php(303): class_exists('EDropzone', true)
+#3 C:\xampp\htdocs\framework2\web\CWidgetFactory.php(146): YiiBase::import('EDropzone', true)
+#4 C:\xampp\htdocs\framework2\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductsoffersController), 'EDropzone', Array)
+#5 C:\xampp\htdocs\framework2\web\CBaseController.php(181): CBaseController->createWidget('EDropzone', Array)
+#6 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\_form.php(63): CBaseController->widget('EDropzone', Array)
+#7 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\electronicalh\protected\views\productsoffers\update.php(36): CController->renderPartial('_form', Array)
+#11 C:\xampp\htdocs\framework2\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\framework2\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\framework2\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\framework2\web\CController.php(785): CController->renderPartial('update', Array, true)
+#15 C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php(198): CController->render('update', Array)
+#16 [internal function]: ProductsoffersController->actionUpdate('1')
+#17 C:\xampp\htdocs\framework2\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsoffersController), Array)
+#18 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsoffersController), Object(ReflectionMethod), Array)
+#19 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#21 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\xampp\htdocs\framework2\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#25 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#26 C:\xampp\htdocs\framework2\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): CController->run('update')
+#28 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#29 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#30 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+---
+2018/05/31 21:30:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:30:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:31:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:31:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:32:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:33:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:36:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:36:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:40:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:41:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:42:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:43:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:43:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:43:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:45:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:45:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 21:52:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:04:07 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:141
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(276): CWebApplication->createController('update/')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#2 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+---
+2018/05/31 22:04:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:07:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:08:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:09:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:10:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:22:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:24:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:26:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:32:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:34:08 [error] [php] Indirect modification of overloaded property Productsoffers::$attributes has no effect (C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:169)
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#3 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#6 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#9 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#10 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (169)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/31 22:37:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:39:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:39:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/productsoffers/1/16617_hipotecario.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('images/products...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/images/productsoffers/1/16617_hipotecario.png
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 22:39:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:40:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/productsoffers/1/89054_provincia.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('images/products...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/images/productsoffers/1/89054_provincia.png
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 22:40:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:40:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/productsoffers/1/89054_provincia.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('images/products...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/images/productsoffers/1/89054_provincia.png
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 22:40:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:40:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/productsoffers/1/89054_provincia.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('images/products...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/images/productsoffers/1/89054_provincia.png
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 22:40:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/05/31 22:42:40 [error] [exception.ParseError] ParseError: syntax error, unexpected '$tempFileray' (T_VARIABLE), expecting ',' or ')' in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:190
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(276): CWebApplication->createController('update/')
+#1 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('productsoffers/...')
+#2 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/electronicalh/productsoffers/update/1
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 22:42:45 [error] [php] Undefined variable: tempFileray (C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php:190)
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\framework2\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(134): ProductsoffersController->runAction()
+#3 C:\xampp\htdocs\framework2\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\framework2\web\CController.php(1148): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\framework2\web\filters\CInlineFilter.php(58): ProductsoffersController->filterAccessControl()
+#6 C:\xampp\htdocs\framework2\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\xampp\htdocs\framework2\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\framework2\web\CController.php(265): ProductsoffersController->runActionWithFilters()
+#9 C:\xampp\htdocs\framework2\web\CWebApplication.php(282): ProductsoffersController->run()
+#10 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/productsoffers/update/1
+in C:\xampp\htdocs\electronicalh\protected\controllers\ProductsoffersController.php (190)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/05/31 22:48:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/productsoffers/1/11820_entre-rios.png". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('images/products...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/images/productsoffers/1/11820_entre-rios.png
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/1
+---
+2018/05/31 22:48:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework2\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework2\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework2\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
