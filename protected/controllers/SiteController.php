@@ -31,7 +31,20 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+
+		$categoriesOffers = Productscategories::model()->findAll();
+		$productsOffers = array();
+
+
+		$productsOffersModel = Productsoffers::model()->findAll();
+		foreach ($productsOffersModel as $key => $value) {
+			array_push($productsOffers, $value);
+		}
+		echo "<pre>";
+		print_r($productsOffers);
+		echo "</pre>";
+		die();
+		$this->render('index',array('categoriesOffers'=>$categoriesOffers));
 	}
 
 	/**

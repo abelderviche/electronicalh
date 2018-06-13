@@ -15,7 +15,7 @@ class ProductsoffersController extends Controller
 	{
 		return array(
 			'accessControl', // perform access control for CRUD operations
-			'postOnly + delete', // we only allow deletion via POST request
+			//'postOnly + delete', // we only allow deletion via POST request
 		);
 	}
 
@@ -52,7 +52,7 @@ class ProductsoffersController extends Controller
 			),			
 		);
 		*/
-		$internal=array('admin','index','view','delete','update','insert');
+		$internal=array('admin','index','view','create','delete','update','insert');
 		return array(
 			array('deny', //no entra a ninguna accion ningun usuario que no este logueado
                 'users'=>array('?'),
@@ -92,13 +92,45 @@ class ProductsoffersController extends Controller
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Productsoffers']))
-		{
+		{	
+		
 			$model->attributes=$_POST['Productsoffers'];
-			$model->image=CUploadedFile::getInstance($model,'image');
-			if($model->save())
+
+
+		//	$model->image = CUploadedFile::getInstance($model,'image');
+			$model->image = $_POST['image'];
+			if($model->validate())
 			{
-				$model->image->saveAs(Yii::app()->request->baseUrl.'/images');
-				$this->redirect(array('view','id'=>$model->id));
+				//self::vaciarcacheimages('images');
+
+				if($model->save()){
+					if(!is_dir('images/productsoffers')){
+						mkdir('images/productsoffers');
+					}
+					if(!is_dir('images/productsoffers/'.$model->id)){
+						mkdir('images/productsoffers/'.$model->id);
+					}
+
+	      		  	$tempFile = $_POST['image_url']; 
+	          		$targetPath = Yii::getPathOfAlias('webroot').'/images/productsoffers/'.$model->id.'/'; 
+	          	
+		        	$file_name = $_POST['image']; 
+		        	$targetFile =  $targetPath.$file_name;
+	       
+	          		if(rename($tempFile,$targetFile)){
+						$this->redirect(array('admin'));
+	          			
+	          		}else{
+	          			echo "pinto el eerror";
+	          		}
+
+				}
+
+				/*if (!$model->image->saveAs(Yii::app()->basePath . '/../images/productsoffers/'.$model->id.'/'.$model->image)){
+                                throw new Exception();
+				}*/
+
+				
 				// redirect to success page
 			}
 		}
@@ -133,20 +165,20 @@ class ProductsoffersController extends Controller
           $random = rand(0,99999);
      		
           $tempFile = $_FILES['Productsoffers']['tmp_name']['image']; 
-          $targetPath = Yii::getPathOfAlias('webroot').'/images/productsoffers/'; 
+          $targetPath = Yii::getPathOfAlias('webroot').'/images/tmp/'; 
 
           $file_name = $random.'_'.str_replace(' ' ,'_' ,$_FILES['Productsoffers']['name']['image']); 
           $targetFile =  $targetPath.$file_name;
        
-          echo json_encode(array('tempFile'=>$tempFile,'file_name'=>$file_name));
 
-          /*if(move_uploaded_file($tempFile,$targetFile)){
+          if(move_uploaded_file($tempFile,$targetFile)){
             $to_return =  $file_name;
 
             Yii::app()->session['id_upload'] = $to_return;
-            echo $to_return;
+          	echo json_encode(array('tempFile'=>$targetFile,'file_name'=>$file_name));
+            //echo $to_return;
           } 
-          */
+          
            
       }
 
@@ -162,6 +194,7 @@ class ProductsoffersController extends Controller
 		
 		if(isset($_POST['Productsoffers']))
 		{	
+		
 			$model->attributes=$_POST['Productsoffers'];
 
 
@@ -181,11 +214,12 @@ class ProductsoffersController extends Controller
       		  	$tempFile = $_POST['image_url']; 
           		$targetPath = Yii::getPathOfAlias('webroot').'/images/productsoffers/'.$model->id.'/'; 
 
+          	
 	        	$file_name = $_POST['image']; 
 	        	$targetFile =  $targetPath.$file_name;
        
-          		if(move_uploaded_file($tempFile,$targetFile)){
-					$this->redirect(array('view','id'=>$model->id));
+          		if(rename($tempFile,$targetFile)){
+					$this->redirect(array('admin'));
           			
           		}else{
           			echo "pinto el eerror";
@@ -213,8 +247,8 @@ class ProductsoffersController extends Controller
 	 */
 	public function actionDelete($id)
 	{
+		
 		$this->loadModel($id)->delete();
-
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));

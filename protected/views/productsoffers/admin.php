@@ -27,13 +27,19 @@ $('.search-form form').submit(function(){
 ?>
 <section class="content-header">
 	<h1>Administrar Ofertas</h1>
+
 </section>
+
 <section class="content">
+
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-12">
 				<div class="card">
 					<!-- /.card-header -->
+					<div class="card-header">
+						<a href="<?=Yii::app()->request->baseUrl;?>/ofertas/agregar" class="btn btn-success float-right"><i class="fa fa-plus"></i> Agregar</a>
+					</div>
 					<div class="card-body">
 						<?php 
 						$this->widget('zii.widgets.grid.CGridView', array(

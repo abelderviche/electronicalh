@@ -37,6 +37,7 @@ class Productsoffers extends CActiveRecord
 			array('price', 'numerical'),
 			array('name,image', 'length', 'max'=>45),
 			array('description', 'length', 'max'=>255),
+			array('name,description', 'required'),
 			//array('image', 'file', 'types'=>'jpg, gif, png'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -53,6 +54,7 @@ class Productsoffers extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'idCategory' => array(self::BELONGS_TO, 'ProductsCategories', 'id_category'),
+			'categories' => array(self::STAT, 'ProductsCategories', 'id_category'),
 		);
 	}
 

@@ -12,7 +12,7 @@
 			<div class="col-md-12">
 				<div class="card card-primary">
 					<div class="card-header">
-		            	<h3 class="card-title">Editando oferta</h3>
+		            	<h3 class="card-title"><?=($model->isNewRecord?'Creando':'Editando');?> oferta</h3>
 		            </div>
 		            <?php $form=$this->beginWidget('CActiveForm', array(
 					'id'=>'productsoffers-form',
@@ -47,14 +47,20 @@
 							<?php echo $form->error($model,'price'); ?>
 				        </div>
 
-				        <?php if($model->isNewRecord!='1'){ ?>
-						<div class="row">
-							 <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/productsoffers/'.$model->id.'/'.$model->image,"image",array("width"=>200)); ?>  
+				        <?php if($model->image!='' && $model->image!='value'){  ?>
+						<div class="form-group" id="uploaded">
+							<?php echo $form->labelEx($model,'image');  ?>
+							<br>
+							 <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/productsoffers/'.$model->id.'/'.$model->image,"image",array("class"=>"col-md-6")); ?>  
+							 <input type="button" id="eliminarImagen" value="X"></input>
 						</div>
 						<?php } ?>
-				        <div class="form-group">
-				        	<?php  echo CHtml::hiddenField('image' , 'value', array('id' => 'hiddenInput'));
-				        		   echo CHtml::hiddenField('image_url' , 'value', array('id' => 'hiddenFileUrl'));
+				        <div class="form-group <?=($model->image!='' && $model->image!='value'?'hidden':'');?>" id="uploaderImage">
+				        	<?php  
+				        		/*$image = ($model->image!=''?$model->image:'value');
+				        		$image_url = ($model->image!=''?Yii::app()->request->baseUrl.'/images/productsoffers/'.$model->id.'/'.$model->image:'value');*/
+				        		echo CHtml::hiddenField('image' , 'value', array('id' => 'hiddenInput'));
+				        		echo CHtml::hiddenField('image_url' , 'value', array('id' => 'hiddenFileUrl'));
 				        	 ?>
 
 				        	<?php 
@@ -107,11 +113,19 @@
 			var before =  $('#hiddenFileUrl').val();
 			$('#hiddenFileUrl').val(before +','+imageResponse.tempFile);
 		}
+		console.log(response)
 	}
 	function addedfile(file ,response){
 	console.log(file);		
 	console.log(response);		
 	}
+	$('#eliminarImagen').on('click',function(){
+		$('#uploaded').hide();
+		$('#uploaderImage').show();
+	});
+	$(window).on('load',function(){
+		$('.hidden').hide();
+	})
 </script>
 
 
