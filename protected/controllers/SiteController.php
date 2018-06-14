@@ -38,13 +38,17 @@ class SiteController extends Controller
 
 		$productsOffersModel = Productsoffers::model()->findAll();
 		foreach ($productsOffersModel as $key => $value) {
-			array_push($productsOffers, $value);
+			$arrayTpm = array();
+			$arrayTpm['id'] = $value->id;
+			$arrayTpm['name'] = $value->name;
+			$arrayTpm['description'] = $value->description;
+			$arrayTpm['price'] = $value->price;
+			$arrayTpm['image'] = $value->image;
+			$productsOffers[$value->idCategory->name][$key] = $arrayTpm;
 		}
-		echo "<pre>";
-		print_r($productsOffers);
-		echo "</pre>";
-		die();
-		$this->render('index',array('categoriesOffers'=>$categoriesOffers));
+		ksort($productsOffers, SORT_STRING );
+		//die();
+		$this->render('index',array('categoriesOffers'=>$categoriesOffers,'productsOffers'=>$productsOffers));
 	}
 
 	/**

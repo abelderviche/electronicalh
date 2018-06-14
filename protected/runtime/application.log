@@ -14774,3 +14774,552 @@ Stack trace:
 REQUEST_URI=/electronicalh/
 in C:\xampp\htdocs\electronicalh\protected\controllers\SiteController.php (44)
 in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/06/14 01:59:37 [error] [exception.ParseError] ParseError: syntax error, unexpected 'array_push' (T_STRING) in C:\xampp\htdocs\electronicalh\protected\controllers\SiteController.php:42
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(276): CWebApplication->createController('index/')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#2 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/electronicalh/
+---
+2018/06/14 01:59:40 [error] [exception.ParseError] ParseError: syntax error, unexpected 'array_push' (T_STRING) in C:\xampp\htdocs\electronicalh\protected\controllers\SiteController.php:42
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(276): CWebApplication->createController('index/')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#2 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/electronicalh/
+---
+2018/06/14 02:11:32 [error] [php] Undefined index: Video (C:\xampp\htdocs\electronicalh\protected\controllers\SiteController.php:49)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/
+in C:\xampp\htdocs\electronicalh\protected\controllers\SiteController.php (49)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/06/14 02:17:02 [error] [exception.ParseError] ParseError: syntax error, unexpected ']' in C:\xampp\htdocs\electronicalh\protected\controllers\SiteController.php:46
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(276): CWebApplication->createController('index/')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#2 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/electronicalh/
+---
+2018/06/14 02:19:38 [error] [php] array_push() expects parameter 1 to be array, null given (C:\xampp\htdocs\electronicalh\protected\controllers\SiteController.php:47)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\xampp\htdocs\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/
+in C:\xampp\htdocs\electronicalh\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/06/14 02:25:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 02:30:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 02:32:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 02:32:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 02:32:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 02:34:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:31:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:31:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:36:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/06/14 04:37:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/productsoffers/4/supervielle.png". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('images/products...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/images/productsoffers/4/supervielle.png
+HTTP_REFERER=http://localhost/electronicalh/
+---
+2018/06/14 04:37:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:38:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/productsoffers/4/supervielle.png". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('images/products...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/images/productsoffers/4/supervielle.png
+HTTP_REFERER=http://localhost/electronicalh/productsoffers/update/4
+---
+2018/06/14 04:38:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/06/14 04:38:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/adminlte.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/adminlte.cs...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/adminlte.css.map
+---
+2018/06/14 04:38:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:39:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:40:10 [error] [php] Undefined index: precio (C:\xampp\htdocs\electronicalh\protected\views\site\index.php:134)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\electronicalh\protected\controllers\SiteController.php(54): SiteController->render()
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\electronicalh\index.php(13): CWebApplication->run()
+REQUEST_URI=/electronicalh/
+in C:\xampp\htdocs\electronicalh\protected\views\site\index.php (134)
+in C:\xampp\htdocs\electronicalh\protected\controllers\SiteController.php (54)
+in C:\xampp\htdocs\electronicalh\index.php (13)
+2018/06/14 04:40:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:54:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:55:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:56:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:56:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:56:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:56:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:57:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:57:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:58:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 04:59:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:00:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:02:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:02:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:02:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:03:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:03:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:04:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:04:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:04:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:06:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:06:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:07:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:07:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:07:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:07:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:07:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:07:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:07:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:07:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:07:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:07:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:07:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:09:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:09:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:09:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:09:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:10:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:11:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:11:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:11:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:13:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:14:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
+2018/06/14 05:15:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.css.map". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\electronicalh\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/electronicalh/css/bootstrap.css.map
+---
