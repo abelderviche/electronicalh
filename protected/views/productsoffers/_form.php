@@ -26,32 +26,43 @@
 					<?php echo $form->errorSummary($model); ?>
 					
 					<div class="card-body">
-				        <div class="form-group">
-				            <?php echo $form->labelEx($model,'id_category'); ?>
-							<?php echo $form->dropDownList($model, 'id_category',CHtml::listData(Productscategories::model()->findAll(), 'id', 'name'),array('empty' => 'Seleccione','class'=>'form-control'));?>
-							<?php echo $form->error($model,'id_category'); ?>
-				        </div>
-				        <div class="form-group">
-							<?php echo $form->labelEx($model,'name'); ?>
-							<?php echo $form->textField($model,'name',array('size'=>45,'maxlength'=>45,'class'=>'form-control')); ?>
-							<?php echo $form->error($model,'name'); ?>
-				        </div>
-				        <div class="form-group">
-							<?php echo $form->labelEx($model,'description'); ?>
-							<?php echo $form->textField($model,'description',array('size'=>60,'maxlength'=>255,'class'=>'form-control')); ?>
-							<?php echo $form->error($model,'description'); ?>
-				        </div>
-				        <div class="form-group">
-				        	<?php echo $form->labelEx($model,'price'); ?>
-							<?php echo $form->textField($model,'price',array('class'=>'form-control')); ?>
-							<?php echo $form->error($model,'price'); ?>
-				        </div>
-
+						<div class="row">
+							<div class="col-sm-12 col-md-6">
+						        <div class="form-group">
+									<?php echo $form->labelEx($model,'name'); ?>
+									<?php echo $form->textField($model,'name',array('size'=>45,'maxlength'=>45,'class'=>'form-control')); ?>
+									<?php echo $form->error($model,'name'); ?>
+						        </div>
+					        </div>
+							<div class="col-sm-12 col-md-6">
+						        <div class="form-group">
+						            <?php echo $form->labelEx($model,'id_category'); ?>
+									<?php echo $form->dropDownList($model, 'id_category',CHtml::listData(Productscategories::model()->findAll(), 'id', 'name'),array('empty' => 'Seleccione','class'=>'form-control'));?>
+									<?php echo $form->error($model,'id_category'); ?>
+						        </div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-9">
+						        <div class="form-group">
+									<?php echo $form->labelEx($model,'description'); ?>
+									<?php echo $form->textField($model,'description',array('size'=>60,'maxlength'=>255,'class'=>'form-control')); ?>
+									<?php echo $form->error($model,'description'); ?>
+						        </div>
+					    	</div>
+							<div class="col-sm-12 col-md-3">
+						        <div class="form-group">
+						        	<?php echo $form->labelEx($model,'price'); ?>
+									<?php echo $form->textField($model,'price',array('class'=>'form-control')); ?>
+									<?php echo $form->error($model,'price'); ?>
+						        </div>
+					        </div>
+						</div>
 				        <?php if($model->image!='' && $model->image!='value'){  ?>
 						<div class="form-group" id="uploaded">
 							<?php echo $form->labelEx($model,'image');  ?>
 							<br>
-							 <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/productsoffers/'.$model->id.'/'.$model->image,"image",array("class"=>"col-md-6")); ?>  
+							 <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/productsoffers/'.$model->id.'/'.$model->image,"image",array("class"=>"col-md-4")); ?>  
 							 <input type="button" id="eliminarImagen" value="X"></input>
 						</div>
 						<?php } ?>
@@ -86,7 +97,7 @@
 			        </div>
 				</div>
 				<div class="card-footer">
-					<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+					<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save',array('class'=>'btn btn-primary btn-block btn-flat')); ?>
 				</div>
 				<?php $this->endWidget(); ?>
 				</div>

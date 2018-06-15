@@ -27,11 +27,9 @@ $('.search-form form').submit(function(){
 ?>
 <section class="content-header">
 	<h1>Administrar Ofertas</h1>
-
 </section>
 
 <section class="content">
-
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-12">
@@ -67,6 +65,7 @@ $('.search-form form').submit(function(){
 							'price',
 							array(
 							'class'=>'CButtonColumn',
+							'template'=>'{update}{delete}',
 							),
 						),
 						)); ?>

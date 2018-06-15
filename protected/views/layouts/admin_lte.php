@@ -90,7 +90,7 @@
                 </a>
               </li>
               <li class="nav-item ">
-                <a href="<?=Yii::app()->request->baseUrl;?>/ofertas" class="nav-link <?=(Yii::app()->getController()->getAction()->controller->id=='otro'?'active':'');?>">
+                <a href="<?=Yii::app()->request->baseUrl;?>/categorias" class="nav-link <?=(Yii::app()->getController()->getAction()->controller->id=='productscategories'?'active':'');?>">
                   <i class="nav-icon fa fa-file"></i>
                   <p>Categorias</p>
                 </a>

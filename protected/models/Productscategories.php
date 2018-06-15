@@ -6,6 +6,8 @@
  * The followings are the available columns in table 'products_categories':
  * @property integer $id
  * @property string $name
+ * @property string $description
+ * @property string $image
  * @property integer $enabled
  *
  * The followings are the available model relations:
@@ -30,10 +32,11 @@ class Productscategories extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('enabled', 'numerical', 'integerOnly'=>true),
-			array('name', 'length', 'max'=>45),
+			array('name,image', 'length', 'max'=>45),
+			array('description', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, enabled', 'safe', 'on'=>'search'),
+			array('id, name, enabled,description', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -56,8 +59,10 @@ class Productscategories extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
+			'name' => 'Nombre',
 			'enabled' => 'Enabled',
+			'image' => 'Imagen',
+			'description' => 'Descripción',
 		);
 	}
 

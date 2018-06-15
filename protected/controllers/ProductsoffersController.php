@@ -26,32 +26,7 @@ class ProductsoffersController extends Controller
 	 */
 	public function accessRules()
 	{
-		/*return array(
-			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('admin','view'),
-				'users'=>array('*'),
-			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('admin','create','update'),
-				'users'=>array('@'),
-			),
-			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
-				'users'=>array('*'),
-			),
-			array('deny',  // deny all users
-				'users'=>array('*'),
-			),
-		);
-		return array(			
-			array('allow',
-				'actions'=>array('i'admin','create','update')
-			),
-			array('deny',
-				'users'=>array('*'),
-			),			
-		);
-		*/
+
 		$internal=array('admin','index','view','create','delete','update','insert');
 		return array(
 			array('deny', //no entra a ninguna accion ningun usuario que no este logueado
@@ -199,31 +174,40 @@ class ProductsoffersController extends Controller
 
 
 		//	$model->image = CUploadedFile::getInstance($model,'image');
-			$model->image = $_POST['image'];
+			if($_POST['image_url']!='value'){
+				$model->image = $_POST['image'];
+			}
+
 			if($model->save())
 			{
 				//self::vaciarcacheimages('images');
-				if(!is_dir('images/productsoffers')){
-					mkdir('images/productsoffers');
-				}
-				if(!is_dir('images/productsoffers/'.$model->id)){
-					mkdir('images/productsoffers/'.$model->id);
-				}
+				if(isset($_POST['image_url'])&&$_POST['image_url']!='value'){
+
+					if(!is_dir('images/productsoffers')){
+						mkdir('images/productsoffers');
+					}
+					if(!is_dir('images/productsoffers/'.$model->id)){
+						mkdir('images/productsoffers/'.$model->id);
+					}
 
 
-      		  	$tempFile = $_POST['image_url']; 
-          		$targetPath = Yii::getPathOfAlias('webroot').'/images/productsoffers/'.$model->id.'/'; 
+	      		  	$tempFile = $_POST['image_url']; 
+	          		$targetPath = Yii::getPathOfAlias('webroot').'/images/productsoffers/'.$model->id.'/'; 
 
-          	
-	        	$file_name = $_POST['image']; 
-	        	$targetFile =  $targetPath.$file_name;
-       
-          		if(rename($tempFile,$targetFile)){
-					$this->redirect(array('admin'));
-          			
+	          	
+		        	$file_name = $_POST['image']; 
+		        	$targetFile =  $targetPath.$file_name;
+	       
+	          		if(rename($tempFile,$targetFile)){
+						$this->redirect(array('admin'));
+	          			
+	          		}else{
+	          			echo "pinto el eerror";
+	          			die();
+	          		}
           		}else{
-          			echo "pinto el eerror";
-          			die();
+          			
+					$this->redirect(array('admin'));
           		}
 
 				/*if (!$model->image->saveAs(Yii::app()->basePath . '/../images/productsoffers/'.$model->id.'/'.$model->image)){
